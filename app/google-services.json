@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "862919124653",
+    "project_id": "ultimate-flame-267217",
+    "storage_bucket": "ultimate-flame-267217.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862919124653:android:fa5e02d1dc2a56b2768824",
+        "android_client_info": {
+          "package_name": "com.example.otp_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862919124653-p27gojqggri6pbruc64rfohlmav8e5ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt0YE8kCy5HHprcP-oTHNnDlT9DztPthg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862919124653-p27gojqggri6pbruc64rfohlmav8e5ad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

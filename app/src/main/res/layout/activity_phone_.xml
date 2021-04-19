@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+android:layout_width="match_parent"
+android:background="@color/material_on_primary_disabled"
+android:layout_height="match_parent"
+tools:context=".Phone_Activity">
+
+<com.hbb20.CountryCodePicker
+    android:id="@+id/ccp1"
+    android:layout_width="115dp"
+    android:layout_height="43dp"
+    android:layout_marginStart="16dp"
+
+    android:gravity="center_vertical|fill_vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/etnumber1"
+    app:layout_constraintHorizontal_bias="0.73"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.213" />
+
+<EditText
+    android:id="@+id/etnumber1"
+    android:layout_width="200dp"
+    android:layout_height="46dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginRight="15dp"
+
+    android:ems="10"
+    android:gravity="fill_horizontal|center_vertical"
+    android:hint="Enter Mobile"
+    android:inputType="textPersonName"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/ccp1"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.21" />
+
+    <Button
+        android:id="@+id/Getbutton"
+        android:layout_width="171dp"
+        android:layout_height="50dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Get OTP"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etnumber1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
